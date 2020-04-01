@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="300.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.ControllerVentana1Categorias">
+   <children>
+      <ComboBox fx:id="comboCategorias" layoutX="61.0" layoutY="187.0" prefWidth="160.0" promptText="Selecciona Categoria" />
+      <Label fx:id="labelcategoria" layoutX="104.0" layoutY="156.0" text="Categorias">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="labelcategoriaselect" layoutX="407.0" layoutY="85.0" text="Problemas">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <AnchorPane fx:id="anchorpane" layoutX="342.0" layoutY="119.0" prefHeight="164.0" prefWidth="200.0">
+         <children>
+            <ScrollPane layoutY="-5.0" prefHeight="164.0" prefWidth="200" AnchorPane.bottomAnchor="5.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="-5.0">
+              <content>
+                <Pane>
+                   <children>
+                      <VBox>
+                         <HBox>
+                           <Label fx:id="texttitulo" alignment="CENTER" prefWidth="98" text="Titulo" visible="false" wrapText="true" />
+                           <Label fx:id="textdescripcion" alignment="CENTER" prefWidth="98" text="Descripcion" visible="false" wrapText="true" />
+                         </HBox>
+                         <Button fx:id="buttonaceptar" alignment="BASELINE_CENTER" prefWidth="198" text="Resolver" visible="false" />
+                         <HBox>
+                            <Label fx:id="texttitulodos" alignment="CENTER" prefWidth="98" text="Titulo" visible="false" wrapText="true" />
+                            <Label fx:id="textdescripciondos" alignment="CENTER" prefWidth="98" text="Descripcion" visible="false" wrapText="true" />
+                         </HBox>
+                         <Button fx:id="buttonaceptardos" alignment="BASELINE_CENTER" prefWidth="198" text="Resolver" visible="false" />
+                      </VBox>
+                   </children>
+                </Pane>
+             </content>
+            </ScrollPane>
+         </children>
+      </AnchorPane>
+      <Label fx:id="labeltituloapp" layoutX="212.0" layoutY="33.0" prefHeight="35.0" prefWidth="169.0" text="Mi CoNdingBat">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

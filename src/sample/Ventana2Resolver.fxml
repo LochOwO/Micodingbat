@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.ControllerVentana2Resolver">
+   <children>
+
+      <Label fx:id="descripcionproblema" layoutX="57.0" layoutY="79.0" prefHeight="63.0" prefWidth="493.0" text="AAAAAAAAAAAAA YA FUNCIONA AAAAAAAAA" wrapText="true">
+         <font>
+            <Font name="System Italic" size="12.0" />
+         </font></Label>
+      <Button fx:id="btnComprobar" layoutX="429.0" layoutY="225.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="102.0" text="Comprobar" />
+      <Button fx:id="btnSalir" layoutX="429.0" layoutY="281.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="102.0" text="Salir" />
+      <TextField fx:id="txtingresarparametros" layoutX="61.0" layoutY="225.0" prefHeight="63.0" prefWidth="320.0">
+         <font>
+            <Font size="25.0" />
+         </font></TextField>
+      <Label fx:id="tituloproblema" alignment="CENTER" layoutX="98.0" layoutY="14.0" prefHeight="54.0" prefWidth="405.0" text="aber" textAlignment="CENTER">
+         <font>
+            <Font name="System Bold" size="36.0" />
+         </font></Label>
+      <Label fx:id="labelparametros" alignment="CENTER" layoutX="54.0" layoutY="180.0" prefHeight="38.0" prefWidth="335.0" text="Ingresa los parametros para ver la respuesta de el ejercicio (Separados por UN SOLO espacio)" textAlignment="CENTER" wrapText="true">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label fx:id="labelresultado" layoutX="96.0" layoutY="300.0" prefHeight="54.0" prefWidth="283.0" text="Resultado:" textAlignment="CENTER" wrapText="true">
+         <font>
+            <Font name="Arial" size="31.0" />
+         </font>
+      </Label>
+      <Button fx:id="buttonaber" layoutX="429.0" layoutY="335.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="102.0" text="Ver" />
+   </children>
+</AnchorPane>
